@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CanHazSourceLink.Fruit</id>
+    <version>1.0.0</version>
+    <authors>CanHazSourceLink.Fruit</authors>
+    <description>Package Description</description>
+    <repository type="git" url="https://github.com/joelverhagen/CanHazSourceLink.Fruit.git" />
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="artifacts\nupkg\**\*.dll" />
+  </files>
+</package>
